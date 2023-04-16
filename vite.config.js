@@ -7,4 +7,7 @@ export default defineConfig({
         ? "reactailwind"            // この行を追加
         : "./",                     // この行を追加
     plugins: [react()],
+    build:{
+        outDir:'./docs'
+    }
 });
